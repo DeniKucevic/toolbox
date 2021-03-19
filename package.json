@@ -1,0 +1,11 @@
+{
+  "name": "toolbox",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/DeniKucevic/toolbox.git",
+  "author": "Brixi <denikucevic@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
