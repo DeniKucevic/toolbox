@@ -30,7 +30,7 @@ app.get('/', (req, res) => {
 app.use(errorMiddlewares.notFound);
 app.use(errorMiddlewares.errorHandler);
 
-const port = process.env.PORT || 4040;
+const port = process.env.PORT || 8080;
 app.listen(port, () => {
     console.log(`listening on ${port}`)
 })
