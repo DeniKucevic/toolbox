@@ -1,8 +1,9 @@
 import React from 'react'
+import ToolsList from '../components/ToolsList'
 
 const Tools = () => {
     return (
-        <h1>TOOLS PAGE</h1>
+        <ToolsList />
     )
 }
 
